@@ -4,9 +4,10 @@
   "main": "index.js",
   "author": "Ugur Hikmet Kose",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "start": "node backend/index.js",
-    "server":"nodemon backend/index.js"
+    "start": "node backend/server.js",
+    "server":"nodemon backend/server.js"
   },
   "dependencies": {
     "colors": "^1.4.0",
